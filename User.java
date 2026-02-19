@@ -15,9 +15,9 @@ public class User {
     throw new UnsupportedOperationException();
   }
 
-	public void viewStatement(Object Statement_statement) {
-		throw new UnsupportedOperationException();
-	}
+  public void viewStatement(Object Statement_statement) {
+    throw new UnsupportedOperationException();
+  }
 
 	public void linkAccounts() {
 		throw new UnsupportedOperationException();

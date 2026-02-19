@@ -15,7 +15,7 @@ public class User {
 		throw new UnsupportedOperationException();
 	}
 
-	public void viewStatement(Object aStatement_statement) {
+	public void viewStatement(Object Statement_statement) {
 		throw new UnsupportedOperationException();
 	}
 

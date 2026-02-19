@@ -11,11 +11,11 @@ public class User {
 	public Client _unnamed_Client_;
 	public Statement _unnamed_Statement_;
 
-	public void changeEmail() {
-		throw new UnsupportedOperationException();
-	}
+  public void changeEmail() {
+    throw new UnsupportedOperationException();
+  }
 
-	public void viewStatement(Object aStatement_statement) {
+	public void viewStatement(Object Statement_statement) {
 		throw new UnsupportedOperationException();
 	}
 

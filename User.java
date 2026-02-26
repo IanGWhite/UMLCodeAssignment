@@ -1,7 +1,7 @@
 public class User {
-	private int _accountNumber;
-	private int _socialSecurity;
-	private String _email;
+	private int accountNumber;
+	private int socialSecurity;
+	private String email;
 	private Statement _currentStatement;
 	private Statement _statementList;
 	private String _address;
@@ -11,8 +11,16 @@ public class User {
 	public Client _unnamed_Client_;
 	public Statement _unnamed_Statement_;
 
-  public void changeEmail() {
-    throw new UnsupportedOperationException();
+  User(int accountNumber, int socialSecurity){
+    this.accountNumber = accountNumber;
+    this.socialSecurity = socialSecurity;
+  }
+
+  public void changeEmail(String email) {
+    this.email = email;
+  }
+  public String getEmail(){
+    return email;
   }
 
   public void viewStatement(Object Statement_statement) {
@@ -27,9 +35,9 @@ public class User {
 		throw new UnsupportedOperationException();
 	}
 
-	public void login() {
-		throw new UnsupportedOperationException();
-	}
+  public String login() {
+    return "" + accountNumber + socialSecurity;
+  }
 
 	public void searchStatements() {
 		throw new UnsupportedOperationException();
